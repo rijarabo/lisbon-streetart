@@ -1,14 +1,14 @@
 
-body {
-  font-family: 'Nunito';
+p {
+  font-family: 'Patrick Hand SC', cursive;
   font-size: 15px;
-  background-color:white;
-  color:Black;
+  color:"black";
 }
 
 h1 {
-  font-family: 'Nunito';
-  font-size: 30px;
+  font-family: 'Rock Salt', cursive;
+  font-size: 23px;
+  color:#FF1493;
 }
 
 #camera{
@@ -38,3 +38,21 @@ footer {
   position: fixed;
   bottom: 10px;
 }
+
+.leaflet-popup-content-wrapper {
+  border: 2px solid #FF6347;
+  border-radius: 8px;
+}
+
+.leaflet-popup-content {
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 15px;
+  color: black;
+}
+
+.custom .leaflet-popup-tip,
+.custom .leaflet-popup-content-wrapper {
+    background: white;
+    color: #ffffff;
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
