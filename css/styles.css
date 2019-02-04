@@ -9,6 +9,10 @@ h1 {
   font-family: 'Rock Salt', cursive;
   font-size: 23px;
   color:#FF1493;
+  text-shadow:  1px 1px #2da0e2,
+                2px 2px #2da0e2,
+                3px 3px #2da0e2,
+                4px 4px #2da0e2;
 }
 
 #camera{

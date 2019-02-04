@@ -1,3 +1,14 @@
+
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+$(window).on('load',function(){
+    $('#StartModalLong').modal('show');
+});
+
+
 var centerMap =[38.727505,-9.153328];
 var zoomMap= 13;
 
